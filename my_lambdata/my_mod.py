@@ -6,7 +6,8 @@ def enlarge(n):
 
 
 if __name__ == "__main__":
-    pass
+    #only runs the code below if executing this script from the command line
+    #otherwise don't run it
 
     x = 6 
 

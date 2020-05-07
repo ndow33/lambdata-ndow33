@@ -6,4 +6,12 @@ TODO
 
 ## Usage
 
-TODO
+```py
+from my_lambdata.my_mod import enlarge
+
+
+print("HELLO")
+
+x = 11
+print(enlarge(x))
+```
