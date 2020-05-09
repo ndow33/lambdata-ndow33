@@ -14,7 +14,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown", # required if using a md file for long desc
     license="MIT",
-    url="https://github.com/ndow33/lambdata-ndow331",
+    url="https://github.com/ndow33/lambdata-ndow33",
     #keywords="",
     packages=find_packages() # ["my_lambdata"]
 )
