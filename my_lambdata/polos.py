@@ -20,3 +20,4 @@ if __name__ == "__main__":
     polo2 = Polo(size = "Small", color = "Yellow")
     print(polo2.size, polo2.color)
     polo2.wash()
+    
