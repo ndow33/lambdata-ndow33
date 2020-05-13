@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="my-lambdata-ndow33", # the name that you will install via pip
-    version="1.2",
+    version="1.4",
     author="Nate Dow",
     author_email="ndow33@gmail.com",
     description="A short description",

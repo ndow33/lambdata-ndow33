@@ -1,5 +1,5 @@
 class Home:
-    def __init__(self, kind, sq_ft, city, price):
+    def __init__(self, kind, sq_ft, city, price): # constructor
         # Initializes a new "Home" object
         self.kind = kind
         self.sq_ft = sq_ft
