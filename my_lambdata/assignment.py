@@ -11,6 +11,7 @@ def add_state_names(my_df):
     return new_df
 
 if __name__ == "__main__":
+    # Manual testing
     df = DataFrame({"abbrev": ["CA", "CO", "CT", "DC", "TX"]})
     print(df.head())
 

@@ -16,5 +16,5 @@ setup(
     license="MIT",
     url="https://github.com/ndow33/lambdata-ndow33",
     #keywords="",
-    packages=find_packages() # ["my_lambdata"]
+    packages=["my_lambdata"]
 )
