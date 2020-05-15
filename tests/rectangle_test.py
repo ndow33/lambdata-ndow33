@@ -13,6 +13,9 @@ def calc_area(l, w):
 
 class TestRectangles(unittest.TestCase):
     def test_area_calculation(self):
+        '''
+        Tests the calc area function
+        '''
         self.assertEqual(calc_area(5, 3), 15)
         # https://docs.python.org/3/library/exceptions.html#ValueError
         with self.assertRaises(ValueError):

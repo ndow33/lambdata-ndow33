@@ -4,8 +4,10 @@ from pandas import DataFrame
 class MyFrame(DataFrame):
 
     def add_state_names(self):
-    # add a column of corresponding state names
-    # dict with abbrev/name mappings
+    '''
+    add a column of corresponding state names
+    dict with abbrev/name mappings
+    '''
         names_map = {"CA": "Cali", "CO": "Colo", "CT": "Conn"}
         self["name"] = self["abbrev"].map(names_map)
 

@@ -7,7 +7,9 @@ def enlarge(n):
 
 
 def check_nulls(df):
-    # Check a dataframe for nulls, print/report them in a nice "pretty" format
+    '''
+    Check a dataframe for nulls, print/report them in a nice "pretty" format
+    '''
     total = df.isna().sum()
     total = total.sum()
     string = f"There are {total} null values in your dataframe"
@@ -16,8 +18,10 @@ def check_nulls(df):
 
 
 def add_column(a_list, dataframe, feature):
-    # Single function to take a list, turn it into a series
-    # and add it to a dataframe as a new column
+'''
+Single function to take a list, turn it into a series
+and add it to a dataframe as a new column
+'''
     a_list = pd.Series(a_list)
     dataframe[feature] = a_list
     print(dataframe)

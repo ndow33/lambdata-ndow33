@@ -1,13 +1,17 @@
 class Home:
-    def __init__(self, kind, sq_ft, city, price): # constructor
-        # Initializes a new "Home" object
+    def __init__(self, kind, sq_ft, city, price):  # constructor
+        '''
+        Initializes a new "Home" object
+        '''
         self.kind = kind
         self.sq_ft = sq_ft
         self.city = city
         self.price = price
 
     def price_sq_ft(self):
-        # Computes the price per square foot of the home object
+        '''
+        This function computes the price per square foot of the home object
+        '''
         answer = self.price/self.sq_ft
         print(f"This home costs ${answer:.2f} per square foot")
         return answer

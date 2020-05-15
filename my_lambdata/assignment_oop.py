@@ -6,8 +6,10 @@ class DataProcessor():
         self.df = my_df
 
     def add_state_names(self):
-    # add a column of corresponding state names
-    # dict with abbrev/name mappings
+    '''
+    add a column of corresponding state names
+    dict with abbrev/name mappings
+    '''
         names_map = {"CA": "Cali", "CO": "Colo", "CT": "Conn"}
         self.df["name"] = self.df["abbrev"].map(names_map)
         return self.df
